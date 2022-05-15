@@ -4,8 +4,8 @@
 
 nav {
     width: 100vw;
-    background-color: #2554bb;
-    border-bottom: 0.25vh solid #fdca40;
+    background-color: #f75c03;
+    border-bottom: 0.25vh solid white;
     box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 10;
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #5a7ac0;
+    background-color: #f58747;
     color: white;
 }
 
@@ -52,8 +52,9 @@ nav a.current-page {
 }
 
 header {
-    background-color: #283176;
+    background-color: #04a777;
     text-align: center;
+    border-bottom: #5a7ac0;
 }
 
 h1 {

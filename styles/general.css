@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #31393c;
+    background-color: #291720;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,13 @@ p {
 h2 {
     font-size: 4vw;
     font-weight: bold;
-    color: #fdca40;
+    color: #04a777;
 }
 
 p,
 li {
     font-weight: lighter;
-    font-size: 1.8vw;
+    font-size: 2vw;
     line-height: 2.2vw;
     color: white;
 }
@@ -47,3 +47,6 @@ img {
     box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
     width: 100%;
 }
+
+/* Color themes:
+https://coolors.co/f75c03-d90368-820263-291720-04a777 */

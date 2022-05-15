@@ -19,7 +19,7 @@ main {
 }
 
 .section-colored {
-    background-color: #fdca40;
+    background-color: #04a777;
     border-radius: 0.5vh;
     box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
     padding: 1vh;
@@ -31,7 +31,7 @@ main {
 
 .section-colored p,
 .section-colored li {
-    color: #283176;
+    color: #291720;
 }
 
 .promotional-video {
