@@ -1,0 +1,64 @@
+.top {
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    width: 100vw;
+    background-color: #2554bb;
+    border-bottom: 0.25vh solid #fdca40;
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10;
+}
+
+.invisible-nav {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.invisible-nav a {
+    color: rgba(0, 0, 0, 0);
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+}
+
+.nav-bar {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+nav a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 1.3vh 6vw;
+    transition: background-color 0.5s, text-decoration 0.5s;
+}
+
+nav a:hover {
+    background-color: #5a7ac0;
+    color: white;
+}
+
+nav a.current-page {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #283176;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 8vw;
+}
