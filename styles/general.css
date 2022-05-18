@@ -40,13 +40,10 @@ a {
 }
 
 a:hover {
-    color: #2176ff;
+    color: #04a777;
 }
 
 img {
     box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
     width: 100%;
 }
-
-/* Color themes:
-https://coolors.co/f75c03-d90368-820263-291720-04a777 */
